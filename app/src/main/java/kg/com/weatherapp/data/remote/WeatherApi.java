@@ -1,6 +1,6 @@
-package kg.junesqo.weatherapp.data.remote;
+package kg.com.weatherapp.data.remote;
 
-import kg.junesqo.weatherapp.data.model.WeatherApp;
+import kg.com.weatherapp.data.model.WeatherApp;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

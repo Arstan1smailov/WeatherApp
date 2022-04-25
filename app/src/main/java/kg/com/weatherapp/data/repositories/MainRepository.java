@@ -1,14 +1,12 @@
-package kg.junesqo.weatherapp.data.repositories;
+package kg.com.weatherapp.data.repositories;
 
 import android.util.Log;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import kg.junesqo.weatherapp.common.Resource;
-import kg.junesqo.weatherapp.data.model.Weather;
-import kg.junesqo.weatherapp.data.model.WeatherApp;
-import kg.junesqo.weatherapp.data.remote.WeatherApi;
+import kg.com.weatherapp.data.model.WeatherApp;
+import kg.com.weatherapp.common.Resource;
+import kg.com.weatherapp.data.remote.WeatherApi;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

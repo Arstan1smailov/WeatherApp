@@ -1,5 +1,5 @@
 
-package kg.junesqo.weatherapp.data.model;
+package kg.com.weatherapp.data.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

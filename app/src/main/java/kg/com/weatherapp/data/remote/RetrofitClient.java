@@ -1,6 +1,5 @@
-package kg.junesqo.weatherapp.data.remote;
+package kg.com.weatherapp.data.remote;
 
-import kg.junesqo.weatherapp.R;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;

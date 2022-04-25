@@ -1,38 +1,29 @@
-package kg.junesqo.weatherapp.ui;
+package kg.com.weatherapp.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 
-import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.text.format.DateUtils;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import kg.junesqo.weatherapp.R;
-import kg.junesqo.weatherapp.base.BaseFragment;
-import kg.junesqo.weatherapp.common.Resource;
-import kg.junesqo.weatherapp.data.model.Clouds;
-import kg.junesqo.weatherapp.data.model.Coord;
-import kg.junesqo.weatherapp.data.model.Main;
-import kg.junesqo.weatherapp.data.model.Sys;
-import kg.junesqo.weatherapp.data.model.Weather;
-import kg.junesqo.weatherapp.data.model.WeatherApp;
-import kg.junesqo.weatherapp.data.model.Wind;
-import kg.junesqo.weatherapp.databinding.FragmentWeatherBinding;
+import kg.com.weatherapp.base.BaseFragment;
+import kg.com.weatherapp.data.model.Main;
+import kg.com.weatherapp.data.model.Sys;
+import kg.com.weatherapp.data.model.WeatherApp;
+import kg.com.weatherapp.data.model.Wind;
+import kg.com.weatherapp.common.Resource;
+import kg.com.weatherapp.data.model.Weather;
 
 
 public class WeatherFragment extends BaseFragment<FragmentWeatherBinding> {

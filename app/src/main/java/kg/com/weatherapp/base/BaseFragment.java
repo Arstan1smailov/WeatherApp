@@ -1,4 +1,4 @@
-package kg.junesqo.weatherapp.base;
+package kg.com.weatherapp.base;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

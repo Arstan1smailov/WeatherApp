@@ -1,4 +1,4 @@
-package kg.junesqo.weatherapp.common;
+package kg.com.weatherapp.common;
 
 public enum Status {
 

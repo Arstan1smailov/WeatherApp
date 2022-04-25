@@ -1,9 +1,9 @@
-package kg.junesqo.weatherapp;
+package kg.com.weatherapp;
 
 import android.app.Application;
 
-import kg.junesqo.weatherapp.data.remote.RetrofitClient;
-import kg.junesqo.weatherapp.data.repositories.MainRepository;
+import kg.com.weatherapp.data.remote.RetrofitClient;
+import kg.com.weatherapp.data.repositories.MainRepository;
 
 public class App extends Application {
 

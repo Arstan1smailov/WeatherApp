@@ -1,12 +1,11 @@
-package kg.junesqo.weatherapp.ui;
+package kg.com.weatherapp.ui;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import kg.junesqo.weatherapp.App;
-import kg.junesqo.weatherapp.common.Resource;
-import kg.junesqo.weatherapp.data.model.WeatherApp;
-import kg.junesqo.weatherapp.data.repositories.MainRepository;
+import kg.com.weatherapp.data.model.WeatherApp;
+import kg.com.weatherapp.App;
+import kg.com.weatherapp.common.Resource;
 
 public class WeatherViewModel extends ViewModel {
 
